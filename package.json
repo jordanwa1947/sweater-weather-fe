@@ -1,0 +1,40 @@
+{
+  "name": "sweater-weather-fe",
+  "version": "1.0.0",
+  "description": "front-end for sweater weather backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanwa1947/sweater-weather-fe.git"
+  },
+  "author": "Jordan Whitten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanwa1947/sweater-weather-fe/issues"
+  },
+  "homepage": "https://github.com/jordanwa1947/sweater-weather-fe#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "zombie": "^6.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "path": "^0.12.7"
+  }
+}
