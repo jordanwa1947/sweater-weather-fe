@@ -5,11 +5,46 @@
   <title>Sweater Weather</title>
 </head>
 <body>
-    <h1> Sweater Weather </h1> 
+    <h1> Sweater Weather </h1>
 
-    <script
+    <form>
+      <input id="get-weather" type='text' class='weather' placeholder="Enter A Location"> </input>
+      <button id='weather-button'> Get Weather </button>
+    </form>
+
+    <p id='current'> </p>
+
+    <h2 class='details'> Details </h2>
+    <p id='details'> </p>
+
+    <p id='today'> </p>
+
+    <p class='hourly'>
+      <p id='hour-0'> </p>
+      <p id='hour-1'> </p>
+      <p id='hour-2'> </p>
+      <p id='hour-3'> </p>
+      <p id='hour-4'> </p>
+      <p id='hour-5'> </p>
+      <p id='hour-6'> </p>
+      <p id='hour-7'> </p>
+    </p>
+
+
+    <p class='daily'>
+      <p id='day-0'> </p>
+      <p id='day-1'> </p>
+      <p id='day-2'> </p>
+      <p id='day-3'> </p>
+      <p id='day-4'> </p>
+      <p id='day-5'> </p>
+      <p id='day-6'> </p>
+      <p id='day-7'> </p>
+    </p>
+
+  <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
-  <script src="build/bundle.js"></script>
+  <script src="./build/bundle.js"></script>
 </body>
 </html>
